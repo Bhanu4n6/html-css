@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .d2{
+            border:2px solid;
+            color:white;
+            background-color: rgb(128, 117, 117);
+            padding:10px;
+            text-align: center;
+        }
+        .d3{
+            display:flex;
+            height: 200px;
+
+        }
+
+        .d4{
+           border:2px solid;
+           width:200px;
+           background-color:rgb(27, 160, 160) ;
+           color:white;
+           text-align: center;
+              padding:10px;
+           
+        }
+        .d5{
+            border:2px solid;
+            background-color: green;
+            color:white;
+            text-align: center;
+            padding:10px;
+            width:1500px;
+                        
+        }
+        .d6{
+            border:2px solid;
+            width:180px;
+            background-color: rgb(230, 78, 78);
+            color:white;
+            text-align: center;
+            padding: 10px;
+             justify-content: end;
+        
+        }
+        .d7{
+            border:2px solid;
+            color:white;
+            background-color: rgb(151, 142, 142);
+            text-align: center;
+            padding: 10px;
+
+           
+        }
+
+
+        .cf{
+           
+            display:flex;
+            justify-content: center;
+            
+            flex-wrap:wrap;
+        
+            
+            width:100%
+        }
+        .cf1,.cf2,.cf3,.cf4,.cf5{
+            background-color: blue;
+            color:white;
+            width:400px;
+            height: 150px;
+            margin: 15px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+  <div style="border:2px solid; margin:10px;">
+  <div  class="d2">Holy grail layout</div>
+
+  <div>
+    <div class="d3" style="border:1px solid">
+
+        <div class="d4">left sidebar</div>
+
+        <div class="d5">Main content</div>
+
+        <div class="d6">Right sidebar</div>
+
+    </div>
+
+    <div class="d7"> Holy grail Demo</div>
+  </div>
+  </div>
+<br>
+<br>
+<div>
+<div class="cf">
+    <di class="cf1"><b>Column 1</b>This is content for column one.It should adapt its width based on Screen size</di>
+    <di class="cf2"><b>Column 2</b>This is content for column one.It should adapt its width based on Screen size</di>
+    <di class="cf3"><b>Column 3</b>This is content for column one.It should adapt its width based on Screen size</di>
+    <di class="cf4"><b>Column 4</b>This is content for column one.It should adapt its width based on Screen size</di>
+    <di class="cf5"><b>Column 5</b>This is content for column one.It should adapt its width based on Screen size</di>
+</div>
+</div>
+
+</body>
+</html>

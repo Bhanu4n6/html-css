@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .container {
+      background-color: #fffdfd02;
+      padding: 2rem 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0, 0, 0);
+      max-width: 500px;
+      width: 100%;
+    }
+    .form-group{
+            margin-bottom: 1rem;
+        }
+
+select {
+    margin-right: 5px;
+    padding: 4px;
+}
+label {
+    font-weight: bold;
+}
+
+
+    input[type="text"] {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+    h2{
+        text-align: center;
+    }
+    p.subtitle{
+        text-align: center;
+    }
+
+     .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    
+}
+.submit-btn:hover {
+    background: #2d4373;
+}
+
+input[type="radio"] {
+    margin: 10px 5px 10px 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+p.subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+   
+
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h2>User Registration Form Demo</h2>
+        <p class="subtitle">Form Valiadtion Using Javascript</p>
+        <form>
+            <div class="form-group class-group">
+            <input type="text" name="firstame" placeholder="First Name" required>
+            <input type="text" name="Lastame" placeholder="Last Name" required>
+            </div>
+             <br>
+            <div class="form-group">
+                <input type="email" name="mail" placeholder="Enter your Mail" required>
+             </div>
+             
+
+             <br>
+             
+             <div class="form-group">
+                <input type="email" name="mail" placeholder="Re-enter your Mail">
+             </div>
+             
+             <br>
+             <br>
+
+             <div class="form-group">
+                <input type="password" name="password" placeholder="New Password">
+             </div>
+
+             <br>
+
+
+             <div class="form-group">
+         <b><label>Birthday</label></b>
+        <br>
+        <select>
+        <option value="" selected disabled>-day-</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+        <select>
+        <option value="" selected disabled>-Month-</option>
+        <option value="jan">jan</option>
+        <option value="feb">feb</option>
+        <option value="mar">mar</option>
+        <option value="apr">apr</option>
+        <option value="mar">mar</option>
+        </select>
+     
+        <select>
+        <option value="" selected disabled>-Year-</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        </select>
+        </div>
+        <br>
+        <input type="radio" name="gender" value="Female" required>Female
+        <input type="radio" name="gender" value="male">male
+        <br>
+        <button type="submit" class="submit-btn"> Sign up</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
